@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+}
+.head-fonts {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+p,
+ol,
+ul {
+  width: 749px;
+}
+
+li {
+  width: 100%;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.home-button {
+  display: flex;
+  width: 749px;
+  height: 25px;
+  justify-content: center;
+  margin-top: -5px;
+  padding-top: 6px;
+  border-radius: 0 0 10px 10px;
+}
+.return {
+  text-decoration: none;
+}
+.return:hover {
+  font-weight: bold;
+  color: #1e81b0;
+  opacity: 71%;
+}
+
+.out-button {
+  display: inline;
+  direction: column;
+  margin-left: -5px;
+  margin-right: 25px;
+}
+
+.out-button a {
+  text-decoration: none;
+  border-radius: 5px;
+  border-width: 5px;
+  padding: 5px 10px;
+}
+
+.out-button a:hover {
+  font-weight: bold;
+  color: #000000;
+  opacity: 100%;
+  /*text-decoration: none;*/
+  border-radius: 5px;
+  border-width: 5px;
+  padding: 5px 10px;
+  background-color: rgba(81, 175, 225, 0.91);
+}
+.out-button a:visited {
+  color: #d3d3d3;
+  /*background-color: transparent;*/
+  /*text-decoration: none;*/
+}
+
+ul {
+  line-height: 1.5;
+}
+
+ol > li {
+  border: 1px solid transparent;
+  background-color: #e3f6f5;
+  border-radius: 15px;
+  margin: 20px -1px;
+}
